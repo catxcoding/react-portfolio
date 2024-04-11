@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { CssBaseline, Container, Typography, Button, Box, AppBar, Toolbar } from '@mui/material';
-import reactLogo from './assets/react.svg';
+import reactLogo from 'src/assets/react.svg';
 
-const viteLogo = '/vite.svg';
+const viteLogo = 'public/vite.svg';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,7 +13,7 @@ function App() {
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" color="inherit" noWrap>
-            Cat Thompson's Portfolio
+            Cat Thompson&apos;s Portfolio
           </Typography>
         </Toolbar>
       </AppBar>
